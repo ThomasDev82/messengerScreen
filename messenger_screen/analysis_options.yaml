@@ -1,0 +1,17 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    file_names: false
+    prefer_single_quotes: true
+    curly_braces_in_flow_control_structures: false
+    always_declare_return_types: false
+    omit_local_variable_types: false
+
+analyzer:
+  errors:
+    file_names: error
+    prefer_single_quotes: warning
+    curly_braces_in_flow_control_structures: error
+    always_declare_return_types: warning
+    omit_local_variable_types: warning
